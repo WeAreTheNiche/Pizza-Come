@@ -1,0 +1,108 @@
+body{
+    background-image: url(fundo.png);
+    background-size: cover;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background: #1d1c1c;
+    color: white;
+    padding: 0 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar li:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    background-color: red;
+    border-radius: 12px;
+    color: #1d1c1c;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu{
+    text-decoration: none;
+    color: yellow;
+    margin: 30px auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    gap: 20px;
+}
+
+.menu:hover{
+    background-color: #1d1c1c;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px auto;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.pizzacard{
+    background-color: #d62828;
+    color: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.pizzacard:hover{
+    transform: scale(1.05);
+}
+
+.pizzacard img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #1d1d1d;
+    color: rgb(255, 196, 0);
+    padding: 20px;
+}
+
+.rodape img {
+    width: 270px;
+}

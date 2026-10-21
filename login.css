@@ -1,0 +1,52 @@
+body{
+    background-image: url(fundo.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding: 80px;
+    border-radius: 30px;
+}
+
+.esquerda, .direita{
+    width: 60%;
+}
+
+.esquerda{
+    flex: 1;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+.direita{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementos input{
+    width: 300px;
+    height: 33px;
+}
+
+.send input{
+    width: 310px;
+    height: 33px;
+    color: white;
+    background-color: red;
+}

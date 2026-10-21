@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login - PizzaCome</title>
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <center>
+        <div class="container">
+
+            <form action="login.php" method="POST">
+                <div class="esquerda">
+
+                    <div class="elementos">
+                        <h2>CPF</h2>
+                        <input type="text" name="cpf"
+                               placeholder="Digite seu CPF"
+                               maxlength="11" required>
+                    </div>
+
+                    <div class="elementos">
+                        <h2>Senha</h2>
+                        <input type="password" name="senha"
+                               placeholder="Digite sua senha"
+                               required>
+                    </div>
+
+                    <br>
+
+                    <div class="send">
+                        <input type="submit" value="Enviar">
+                    </div>
+
+                    <div>
+                        <br>
+                        Não tem uma conta?
+                        <a href="cadastro.html">Clique aqui.</a>
+                    </div>
+
+                </div>
+            </form>
+
+            <div class="direita">
+                <h2>A PizzaCome <br> te dá boas-vindas!</h2>
+                <img src="logo.png" alt="Logo da PizzaCome">
+            </div>
+
+        </div>
+    </center>
+</body>
+</html>
